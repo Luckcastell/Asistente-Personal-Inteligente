@@ -49,7 +49,7 @@ def display_previous_messages():
 from bot_profile import get_profile, BOT_PROFILES
 
 def show_sidebar(client):
-    st.sidebar.title("Modelo e Historial")
+    st.sidebar.title("Modelo y perfil")
     #Selector de Modelo
     model = st.sidebar.selectbox("Seleccionar Modelo", MODELS, index=0)
     st.sidebar.write(f"**Modelo seleccionado:** {model}")
